@@ -67,7 +67,7 @@ header ul li a:focus {
 
 .slider-wrap {
     margin: auto;
-    width: 80%;
+    width: 90%;
     clear: both;
     position: relative;
 }
@@ -94,8 +94,10 @@ header ul li a:focus {
 
 /*///////////////////// Template Code //////////////////////////*/
 
+
 /*////////////////////////////// Contact styles ///////////////////////////*/
-.contact-form{
+
+.contact-form {
     width: 560px;
     height: auto;
     padding: 2mm 0mm !important;
@@ -104,7 +106,7 @@ header ul li a:focus {
     top: 10mm;
 }
 
-.contact-form label{
+.contact-form label {
     text-align: center;
     display: block;
     margin: auto;
@@ -114,20 +116,22 @@ header ul li a:focus {
     border-bottom: 0.5mm solid;
 }
 
-.contact-form table, .contact-form table tr, .contact-form table tr td{
+.contact-form table,
+.contact-form table tr,
+.contact-form table tr td {
     width: 100%;
     height: auto;
     padding: 0.5mm 0mm !important;
 }
 
-.contact-form table tr td label{
+.contact-form table tr td label {
     font-size: 22px;
     width: 300px;
     border: none;
     margin-bottom: 1mm;
 }
 
-.contact-form table tr td input{
+.contact-form table tr td input {
     width: 90%;
     height: 28px;
     display: block;
@@ -139,7 +143,7 @@ header ul li a:focus {
     border: 0.5mm solid;
 }
 
-.contact-form table tr td textarea{
+.contact-form table tr td textarea {
     width: 90%;
     height: 200px;
     display: block;
@@ -153,25 +157,28 @@ header ul li a:focus {
     resize: none;
 }
 
-.contact-form table tr td input:hover,.contact-form table tr td textarea:hover{
+.contact-form table tr td input:hover,
+.contact-form table tr td textarea:hover {
     background-color: rgba(50, 160, 255, 0.2);
 }
 
-.contact-form table tr td input:active,.contact-form table tr td textarea:active{
+.contact-form table tr td input:active,
+.contact-form table tr td textarea:active {
     background-color: rgba(50, 160, 255, 0.2);
 }
 
-.contact-form table tr td input:focus,.contact-form table tr td textarea:focus{
+.contact-form table tr td input:focus,
+.contact-form table tr td textarea:focus {
     outline: none;
 }
 
-.contact-form button{
+.contact-form button {
     float: right;
     margin-right: 5mm;
     width: 80px;
     height: 30px;
     text-align: center;
-    color: rgba(255,255,255,1);
+    color: rgba(255, 255, 255, 1);
     font-size: 20px;
     line-height: 20px;
     background-color: rgba(89, 171, 227, 1);
@@ -179,21 +186,22 @@ header ul li a:focus {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-
 }
 
-.contact-form button:hover{
+.contact-form button:hover {
     background-color: rgba(228, 241, 254, 0.8);
     border: 0.5mm solid;
-    border-color: rgba(0,0,0, 1);
-    color: rgba(0,0,0, 1);
+    border-color: rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 1);
 }
 
-.contact-form button:active{
-    background-color: transparent;    
+.contact-form button:active {
+    background-color: transparent;
 }
 
-.contact-form button:focus{
+.contact-form button:focus {
     outline: none;
 }
+
+
 /*////////////////////////////// Contact styles ///////////////////////////*/
