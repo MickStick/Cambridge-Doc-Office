@@ -25,9 +25,39 @@
             </div>
             <!--//////////////////// Template Code ////////////////////////-->
 
+            <!--/////////////////// Services Teaser ///////////////////////-->
+            <div class="Service-Teaser-wrapper">
+                <div class="Service-Teaser-Container">
+                    <?php
+                        include "model/DBConfig.php";
+                        $service = $conn->query("SELECT service FROM services");
+                        $x = 0;
+                        while($name = $service->fetch_assoc()){?>
+                            <div class="service-teaser">
+                                <h3><?php echo $name["service"]?></h3>
+                                <a href="">Read More</a>
+                            </div>
+                            <?php
+                            $x++;
+                            if($x >= 5){
+                                break;
+                            }
+                        }
+                        $conn->close();
+                    ?>
+                </div>
+                <a href="">View More</a>
+            </div>
+            <!--/////////////////// Services Teaser ///////////////////////-->
+
         </main>
     </body>
+    
     <footer>
         <?php include "partials/footer.php"; ?>
     </footer>
+
+    <nav class="lower-nav" hidden>
+        <?php include "partials/mobileNav.php";?>
+    </nav>
 </html>

@@ -1,0 +1,1 @@
+<label for="copyright">CMSC &copy 2017</label>

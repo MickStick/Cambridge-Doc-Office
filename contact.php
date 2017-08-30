@@ -28,4 +28,7 @@
     <footer>
         <?php include "partials/footer.php"; ?>
     </footer>
+    <nav class="lower-nav" hidden>
+        <?php include "partials/mobileNav.php";?>
+    </nav>
 </html>
